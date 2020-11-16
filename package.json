@@ -1,0 +1,31 @@
+{
+  "name": "logger",
+  "version": "0.1.0",
+  "description": "Log levels and utils for the debug package",
+  "main": "lib/index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "./bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jack0son/node-logger.git"
+  },
+  "keywords": [
+    "logger",
+    "debug",
+    "node"
+  ],
+  "author": "jack0son",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jack0son/node-logger/issues"
+  },
+  "homepage": "https://github.com/jack0son/node-logger#readme",
+  "dependencies": {
+    "debug": "^4.2.0",
+    "node-utils": "git://github.com/jack0son/node-utils.git"
+  }
+}
